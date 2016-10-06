@@ -1,3 +1,37 @@
 a {
     color: rgb(255, 0, 0);
 }
+
+h1 {
+    color: rgb(54, 100, 23);
+    font-size: 7em;
+    border-style: dashed;
+    background-color: purple;
+}
+
+p {
+    border: 1px solid #ccc;
+    width: 30%;
+}
+
+ul {
+    border: 1px solid #ccc;
+    left: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+h2 {
+    font-size: 3em;
+    color: #4c4c4c
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc;
+    width: 100%;
+    cursor: crosshair;
+} 
+input[type=radio] {
+    cursor: pointer;
+} 
