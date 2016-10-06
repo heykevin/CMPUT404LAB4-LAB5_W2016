@@ -7,7 +7,13 @@ h1 {
     font-size: 7em;
     border-style: dashed;
     background-color: purple;
+    animation: blinker 1s linear infinite;
 }
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
 
 p {
     border: 1px solid #ccc;
